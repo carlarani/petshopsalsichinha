@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #E8DAB2;
+    padding-bottom: 50px;
+}
+
+header {
+    height: 700px;   
+}
+
+.bem-vindo {
+    font-size: 26px;
+    font-style: italic ;
+    position:absolute;
+    top:275px;
+}
+
+h1 {
+    font-size: 52px;
+    position:absolute;
+    top: 300px;
+}
+
+.icone{
+    width:370px;
+    height:192px;
+    position: absolute;
+    right:0;
+    top:275px;
+}
+
+section {
+    background-color: white;
+    width:800px;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%); 
+    padding: 34px 24px 100px 24px;
+    box-shadow: 0px 0px 5px 1px #000000;
+    border-radius: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.foto-passeio {
+    width: 770px;
+    height:auto;
+    margin-left: 15px;
+}
+
+.video-parceiro {
+    width: 770px;
+    height: 400px;
+    margin-left:15px;
+}
+
+footer {
+    background-color: #090909;
+    position: fixed;
+    bottom: 0;
+    height:50px;
+    width:100%;
+    text-align: right;
+    padding:16px;
+    color: white;
+    font-weight: bold;
+}
+
+.rodape {
+    position:relative;
+    right: 34px;
+}
+
+.link {
+    color: #35B1D2;
+    text-decoration: none;
+}
+
+.link:hover {
+    transform:scale(1.2);
+}
